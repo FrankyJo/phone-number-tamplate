@@ -20,7 +20,7 @@ module.exports = {
     mode: ENV.NODE_ENV,
     watch: isWatchMode,
     entry: {
-        pnt: path.resolve(__dirname, './src/index.js'),
+        selectPhoneNumberTemplate: path.resolve(__dirname, './src/index.js'),
     },
     output: {
         path: ENV.NODE_ENV === 'development' ? path.resolve(__dirname, './dev') : path.resolve(__dirname, './public'),
